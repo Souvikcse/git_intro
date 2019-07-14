@@ -1,0 +1,13 @@
+*{
+    color: red;
+}
+div{
+    margin-left: 50px;
+}
+p{
+    font-size: 30px;
+}
+#p2{
+    font-family: Verdana;
+    font-size: 40px;
+}
