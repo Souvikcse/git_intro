@@ -1,6 +1,9 @@
 *{
     color: red;
 }
+body{
+    margin-top: 180px;
+}
 div{
     margin-left: 50px;
 }
@@ -10,4 +13,7 @@ p{
 #p2{
     font-family: Verdana;
     font-size: 40px;
+}
+.wow{
+    background-color: blueviolet;
 }
