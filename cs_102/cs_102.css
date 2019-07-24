@@ -1,3 +1,8 @@
+.box{
+    margin: 25px;
+    padding: 10px;
+    border: solid brown 5px;
+}
 #cl1{
     background-color: blue;
 }
