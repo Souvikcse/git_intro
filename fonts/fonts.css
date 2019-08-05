@@ -1,0 +1,14 @@
+table{
+    margin-left: 35%;
+    table-layout: fixed;
+    width: 30%;
+    border-collapse: collapse;
+    border: 5px solid black;
+}
+tbody td{
+    text-align: center;
+}
+thead>tr{
+    background-color: blueviolet;
+}
+
