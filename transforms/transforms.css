@@ -1,0 +1,8 @@
+#id1{
+    height: 70px;
+    width: 90px;
+    background-color: chartreuse;
+    transform: scale(0.5);
+    transform: skew(10deg, 0);
+    transform: rotateY(45deg);
+}
