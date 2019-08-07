@@ -1,0 +1,23 @@
+div{
+    background-color: chartreuse;
+    margin: 30px;
+    border: 8px solid black;
+    padding: 30px;
+}
+input{
+    height: 35px;
+    width: 460px;
+}
+#id2{
+    position: fixed;
+    top: 0px;
+    left: 60%;
+}
+#id3{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+p{
+    font-size: 50px;
+}
