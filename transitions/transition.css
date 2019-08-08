@@ -1,0 +1,30 @@
+.card{
+    background-color: aquamarine;
+    height: 150px;
+    width: 200px;
+    position: fixed;
+}
+#id2{
+    left: 250px;
+}
+.front{
+    border: 5px;
+    text-align: center;
+    font-size: 35px;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    backface-visibility: hidden;
+    position: absolute;
+}
+.card:hover{
+    background-color: blueviolet;
+    transition: background 3s;
+}
+.back{
+    border: 5px;
+    color: aquamarine;
+    font-size: 40px;
+    text-align: center;
+    position: absolute;
+    top: 36px;
+}
