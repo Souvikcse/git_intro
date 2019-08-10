@@ -1,0 +1,19 @@
+.trig{
+    height: 200px;
+    width: 180px;
+    background-color: aliceblue;
+    border: 20px solid brown;
+}
+.box{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    height: 200px;
+    width: 180px;
+    background-color: blueviolet;
+    pointer-events: none;
+}
+.trig:hover + .box{
+    transform: translate(200px, 180px) rotateZ(60deg);
+    transition: transform 3s ease-in-out;
+}
