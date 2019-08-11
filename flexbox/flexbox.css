@@ -1,0 +1,22 @@
+.container{
+    background-color: aquamarine;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.item{
+    background-color: cadetblue;
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+#item3{
+    order: 1;
+}
