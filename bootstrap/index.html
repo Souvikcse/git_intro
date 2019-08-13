@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        .item:hover{
+            background-color: chartreuse;
+        }
+        #home{
+            padding: 5px;
+        }
+        .it{
+            margin: 5px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            scale: 1;
+        }
+        table{
+            border: 1px solid brown;
+            border-collapse: initial;
+        }
+    </style>
+   </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-6 col-md-2 col-lg-1 item border border-primary rounded-pill shadow">Home</div>
+            <div class="col-sm-4 col-6 col-md-2 col-lg-1 item border border-primary rounded-pill shadow">Profile</div>
+            <div class="col-sm-4 col-6 col-md-2 col-lg-1 item border border-primary rounded-pill shadow">Hobbies</div>
+            <div class="col-sm-4 col-6 col-md-2 col-lg-1 item border border-primary rounded-pill shadow">About</div>
+        </div>
+    </div><br>
+    
+        <div class="container">
+            <div class="row">
+            <input type="text" placeholder="Search" class="col-6">
+            <button class="col-1 overflow-auto" type="submit"> Search</button></div>
+
+        </div>
+    <div class="container" id="home">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6 col-xl-6 border border-primary rounded shadow ">
+            Hi! There. My name is Souvik Banerjee. I am a final year computer science engineering student. Currently I am interested in web development.This is my first respnsive web page designed with the help of bootstrap v4.Apart from web development I am also interested in Data structures and algorithms. I always like to code in my free time. I do not think of coding as a task to be done, rather I do it because I enjoy doing it.I also spend a considerable amount of time solving mathematics puzzles. To know more about me click on the options above. </div>
+            <div class="col-12 col-sm-6 col-md-6 col-xl-6">
+            <img src="menew1.png"  alt="Me" ></div>
+        </div>
+    </div> <br>
+
+    <div class="container">
+    <p id="profile">
+        <h2 class="border shadow">Education</h2>
+    </p>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <th>#</th>
+            <th>University/Board</th>
+            <th>Duration-Year</th>
+            <th>% obtained</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ICSE</td>
+                <td>upto 2014</td>
+                <td>90.4</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CBSE</td>
+                <td>2014-2016</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>MAKAUT</td>
+                <td>2016-2020</td>
+                <td>78</td>
+            </tr>
+        </tbody>
+    </table></div>
+   
+    <div class="container">
+        <h2 class="border shadow">Academic Projects Undertaken</h2>
+        <h5>1.Employee Attendance System using Java Swing</h5><br>
+        <h5>2.Learning full stack development using Node.js</h5>
+    </div><br>
+
+
+</body>
+</html>
